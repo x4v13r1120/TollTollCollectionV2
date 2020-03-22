@@ -1,4 +1,12 @@
-package TollStation;
+/*
+  Author_Xavier_Naranjo
+  Start_Date_03/16/2020 End_Date_03/22/2019
+  This is a upgraded project for another toll station collection software I wrote for class.
+  Uses a random number generator for the number of booths at the station and the number of cars at each booth.
+  Then asks user the car type the payment type and number of axel's the car has and tells the user the price
+  With any discounts or fees applied.It also displays the total made by each booth and by the entire station.
+ */
+package tollStation;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -8,7 +16,7 @@ import java.util.Random;
 public class TollStationTester {
 
     //simple money format
-    private static DecimalFormat df2 = new DecimalFormat("#.##");
+    private static final DecimalFormat df2 = new DecimalFormat("#.##");
 
     public static void main(String[] args) {
 

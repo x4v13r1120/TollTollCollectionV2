@@ -1,4 +1,4 @@
-package TollStation;
+package tollStation;
 
 public class TollBooth {
     public static double totalCashMade = 0;
