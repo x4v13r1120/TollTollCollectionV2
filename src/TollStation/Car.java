@@ -7,7 +7,7 @@ public class Car<axel> {
    private static double hybridDiscount= 0.25;
 
    public static double calculatedGasCost(double axel){
-    return StartingPrice + ((axel - 3)*5) +((axel * 1)- (axel - 2));
+    return StartingPrice + ((axel - 3)*5) + ((axel * 1)- (axel - 2));
     }
 
     public static double calculatedEVCost(double axel){
